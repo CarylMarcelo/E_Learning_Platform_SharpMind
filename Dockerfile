@@ -2,6 +2,7 @@ FROM richarvey/nginx-php-fpm:3.1.6
 
 COPY . .
 
+RUN chmod +x /var/www/html/scripts/00-laravel-deploy.sh
 RUN composer install --no-dev --optimize-autoloader --no-interaction --working-dir=/var/www/html
 
 # Image config

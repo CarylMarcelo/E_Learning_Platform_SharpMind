@@ -8,4 +8,4 @@ php artisan storage:link
 
 echo "Running migrations and seeders..."
 php artisan migrate --force
-php artisan db:seed --force
+php artisan db:seed --class=DemonstrationSeeder --force

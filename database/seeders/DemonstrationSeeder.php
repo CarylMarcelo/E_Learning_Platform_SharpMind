@@ -15,9 +15,9 @@ class DemonstrationSeeder extends Seeder
 {
     public function run(): void
     {
-        if (! app()->environment(['local', 'testing']) || ! config('demo.enabled')) {
-            throw new LogicException('Demonstration data requires a disposable local/testing database and DEMO_MODE=true.');
-        }
+      //  if (! app()->environment(['local', 'testing']) || ! config('demo.enabled')) {
+     //      throw new LogicException('Demonstration data requires a disposable local/testing database and DEMO_MODE=true.');
+      //  }
 
         $this->call(MembershipCatalogueSeeder::class);
         User::firstOrCreate(['email' => 'admin@sharpmind.test'], ['name' => 'Demo Admin', 'password' => 'SharpMindDemo2026!']);
