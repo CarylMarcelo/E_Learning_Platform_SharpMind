@@ -2,10 +2,6 @@ FROM richarvey/nginx-php-fpm:3.1.6
 
 COPY . .
 
-# Install Node.js to build Vite/Tailwind assets
-RUN apk add --no-cache nodejs npm
-RUN npm install && npm run build
-
 # Image config
 ENV SKIP_COMPOSER 1
 ENV WEBROOT /var/www/html/public

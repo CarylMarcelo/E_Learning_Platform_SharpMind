@@ -1,0 +1,1 @@
+const e=document.querySelector(".membership-donut");if(e){const t=Number(e.dataset.total),n=t?Number(e.dataset.active)/t*360:0,a=t?Number(e.dataset.pending)/t*360:0;e.style.setProperty("--active-angle",n+"deg"),e.style.setProperty("--pending-angle",n+a+"deg")}

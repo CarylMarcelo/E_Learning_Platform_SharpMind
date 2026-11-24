@@ -1,0 +1,129 @@
+{
+  "_catalog-A1lT3XXA.js": {
+    "file": "assets/catalog-A1lT3XXA.js",
+    "name": "catalog",
+    "imports": [
+      "_interface-CR83Knvl.js"
+    ]
+  },
+  "_interface-CR83Knvl.js": {
+    "file": "assets/interface-CR83Knvl.js",
+    "name": "interface"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-D4qtAFUJ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/categories.css": {
+    "file": "assets/categories-Bh6NpsQx.css",
+    "src": "resources/css/categories.css",
+    "isEntry": true,
+    "name": "categories",
+    "names": [
+      "categories.css"
+    ]
+  },
+  "resources/css/dashboard.css": {
+    "file": "assets/dashboard-Dy1YP4TU.css",
+    "src": "resources/css/dashboard.css",
+    "isEntry": true,
+    "name": "dashboard",
+    "names": [
+      "dashboard.css"
+    ]
+  },
+  "resources/css/levels.css": {
+    "file": "assets/levels-Ccmqz3r7.css",
+    "src": "resources/css/levels.css",
+    "isEntry": true,
+    "name": "levels",
+    "names": [
+      "levels.css"
+    ]
+  },
+  "resources/css/login.css": {
+    "file": "assets/login-BdtX4zYF.css",
+    "src": "resources/css/login.css",
+    "isEntry": true,
+    "name": "login",
+    "names": [
+      "login.css"
+    ]
+  },
+  "resources/css/members.css": {
+    "file": "assets/members-C4-AWz_D.css",
+    "src": "resources/css/members.css",
+    "isEntry": true,
+    "name": "members",
+    "names": [
+      "members.css"
+    ]
+  },
+  "resources/css/transactions.css": {
+    "file": "assets/transactions-DTRbTJHq.css",
+    "src": "resources/css/transactions.css",
+    "isEntry": true,
+    "name": "transactions",
+    "names": [
+      "transactions.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BBOy7FaF.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_interface-CR83Knvl.js"
+    ]
+  },
+  "resources/js/categories.js": {
+    "file": "assets/categories-CUAz1pVK.js",
+    "name": "categories",
+    "src": "resources/js/categories.js",
+    "isEntry": true,
+    "imports": [
+      "_catalog-A1lT3XXA.js",
+      "_interface-CR83Knvl.js"
+    ]
+  },
+  "resources/js/dashboard.js": {
+    "file": "assets/dashboard-9_KCVMoG.js",
+    "name": "dashboard",
+    "src": "resources/js/dashboard.js",
+    "isEntry": true
+  },
+  "resources/js/levels.js": {
+    "file": "assets/levels-BU1MG3mI.js",
+    "name": "levels",
+    "src": "resources/js/levels.js",
+    "isEntry": true,
+    "imports": [
+      "_catalog-A1lT3XXA.js",
+      "_interface-CR83Knvl.js"
+    ]
+  },
+  "resources/js/login.js": {
+    "file": "assets/login-CEfgfALH.js",
+    "name": "login",
+    "src": "resources/js/login.js",
+    "isEntry": true
+  },
+  "resources/js/members.js": {
+    "file": "assets/members-8eV9wfM1.js",
+    "name": "members",
+    "src": "resources/js/members.js",
+    "isEntry": true
+  },
+  "resources/js/transactions.js": {
+    "file": "assets/transactions-CNzxTEW7.js",
+    "name": "transactions",
+    "src": "resources/js/transactions.js",
+    "isEntry": true
+  }
+}

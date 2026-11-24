@@ -1,0 +1,1 @@
+import{i,a as e}from"./catalog-A1lT3XXA.js";import"./interface-CR83Knvl.js";i("categories");e({dialogId:"category-editor",formId:"category-form",createTitle:"A new place to belong",editTitle:"Edit category",fields:{name:"",description:"",discount_percent:"0"}});

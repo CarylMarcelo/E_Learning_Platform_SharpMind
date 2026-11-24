@@ -1,0 +1,1 @@
+import{i as e,a as i}from"./catalog-A1lT3XXA.js";import"./interface-CR83Knvl.js";e("levels");i({dialogId:"level-editor",formId:"level-form",createTitle:"A new level of possibility",editTitle:"Edit membership level",fields:{name:"",fee:"",validity_days:"365",benefits:""}});
