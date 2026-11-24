@@ -6,8 +6,6 @@ The workspace supports member CRUD, category and level management, applications 
 
 ![SharpMind dashboard](resources/screenshots/dashboard.jpg)
 
-[Illustrated Word walkthrough from Login to Dashboard and the complete workflow](<SharpMind System Walkthrough.docx>)
-
 [Technical documentation, database diagram, rubric evidence, and demonstration guide](PROJECT_DOCUMENTATION.md)
 
 ## Requirements
