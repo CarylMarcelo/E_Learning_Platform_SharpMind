@@ -1,0 +1,234 @@
+.members-metrics {
+    margin-bottom: 24px;
+}
+
+.members-panel>.filters {
+    border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.members-panel .action-group {
+    flex-wrap: nowrap;
+}
+
+.members-panel .icon-button {
+    width: 29px;
+    height: 29px;
+    border-color: transparent;
+    background: none;
+    border-radius: 7px;
+}
+
+.members-panel .icon-button .icon {
+    width: 14px;
+    height: 14px;
+}
+
+.members-panel .data-table .person-detail {
+    font-size: 12px;
+}
+
+.member-map {
+    width: 100%;
+    height: 280px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    z-index: 1;
+    background: var(--purple-50);
+}
+
+.map-sync {
+    border: 0;
+    background: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.map-sync .icon {
+    width: 12px;
+    height: 12px;
+}
+
+.member-profile-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 27px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid var(--line);
+}
+
+.member-profile-header>.badge {
+    margin-left: auto;
+}
+
+.member-profile-header h2 {
+    font-size: 17px;
+}
+
+.member-profile-header .reference {
+    margin-top: 5px;
+}
+
+.profile-avatar {
+    width: 53px;
+    height: 53px;
+    border-radius: 17px;
+    font-size: 16px;
+}
+
+.member-history {
+    margin-top: 24px;
+}
+
+.member-profile-grid .detail-list {
+    margin-block: 23px;
+}
+
+@media(max-width:1150px) and (min-width:801px) {
+    .member-profile-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:500px) {
+    .member-profile-header {
+        flex-wrap: wrap;
+    }
+
+    .member-map {
+        height: 240px;
+    }
+}
+
+.phone-input {
+    display: flex;
+    gap: 10px;
+}
+
+.phone-country {
+    position: relative;
+    flex: 0 0 112px;
+}
+
+.phone-country select {
+    height: 100%;
+    appearance: none;
+    color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.phone-country option {
+    color: var(--ink);
+    background: white;
+}
+
+.phone-country-display {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0 10px;
+    color: var(--ink);
+    font-size: 14px;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.phone-country-flag {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+}
+
+.phone-country-display .icon {
+    width: 12px;
+    height: 12px;
+    margin-left: auto;
+    flex: 0 0 auto;
+}
+
+.phone-input input {
+    flex: 1 1 0;
+    width: 0;
+    min-width: 0;
+}
+
+.map-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin-top: 7px;
+}
+
+.map-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    min-width: 0;
+    padding: 18px;
+    border: 1px solid var(--purple-100);
+    border-radius: 14px;
+    background: var(--purple-50);
+}
+
+.map-card > div {
+    min-width: 0;
+}
+
+.map-card-icon {
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+    color: var(--purple-700);
+    background: white;
+}
+
+.map-card-icon .icon {
+    width: 21px;
+    height: 21px;
+}
+
+.map-card h3 {
+    color: var(--purple-700);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.map-card-value {
+    min-height: 44px;
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.65;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.weather-card {
+    background: var(--blue-soft);
+    border-color: #dde9fc;
+}
+
+.weather-card .map-card-icon,
+.weather-card h3 {
+    color: var(--muted);
+}
+
+.member-map .leaflet-control-attribution {
+    color: var(--ink);
+    font-size: 12px;
+}
+
+.member-map .leaflet-control-attribution a {
+    color: var(--purple-700);
+}
+
+@media(max-width:600px) {
+    .map-cards {
+        grid-template-columns: 1fr;
+    }
+}
