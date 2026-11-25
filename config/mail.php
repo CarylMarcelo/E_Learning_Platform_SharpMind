@@ -39,8 +39,8 @@ return [
 
     'mailers' => [
 
-        'mailtrap-sdk' => [
-            'transport' => 'mailtrap-sdk',
+        'mailjet' => [
+            'transport' => 'mailjet',
         ],
 
         'smtp' => [
