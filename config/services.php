@@ -14,6 +14,12 @@ return [
     |
     */
 
+    'mailtrap-sdk' => [
+        'host' => env('MAILTRAP_HOST', 'sandbox.api.mailtrap.io'),
+        'apiKey' => env('MAILTRAP_API_KEY'),
+        'sandboxId' => env('MAILTRAP_SANDBOX_ID'),
+    ],
+
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
